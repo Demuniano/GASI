@@ -1,0 +1,26 @@
+.env
+.env.*            # Cualquier archivo de entorno, como .env.dev, .env.prod
+!.env.example     # Deja el ejemplo para referencia
+
+*.log
+
+tmp/
+temp/
+.cache/
+
+docker-compose.override.yml
+
+*.bak
+*.swp
+*~
+
+*.img
+
+.vscode/
+.idea/
+*.code-workspace
+
+.DS_Store
+Thumbs.db
+
+*.md~

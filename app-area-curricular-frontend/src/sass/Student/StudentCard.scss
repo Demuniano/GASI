@@ -1,0 +1,43 @@
+.student-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    margin: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.student-card:hover {
+    transform: scale(1.05);
+}
+
+.student-card-header h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.student-card-body p {
+    margin: 8px 0;
+    color: #555;
+}
+
+.student-card-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.student-card-footer button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.student-card-footer button:hover {
+    background-color: #0056b3;
+}

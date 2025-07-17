@@ -1,0 +1,72 @@
+/* Estilos para el contenedor principal */
+.act-table-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-x: auto; /* Permite desplazamiento horizontal en pantallas pequeñas */
+}
+
+/* Estilos para el botón de agregar acta */
+.add-act-button {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor de la tabla */
+.table-container {
+    overflow-x: auto; /* Permite desplazamiento horizontal en pantallas pequeñas */
+}
+
+/* Estilos generales para la tabla */
+.meeting-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e6f7ff; /* Blanco de fondo para la tabla */
+}
+
+/* Estilos para las celdas de la tabla */
+.meeting-table th,
+.meeting-table td {
+    padding: 15px; /* Añade más espacio interno en las celdas */
+    text-align: left;
+    border: 1px solid #ddd; /* Agrega bordes a todas las celdas */
+    font-size: 16px; /* Tamaño de fuente para mejor legibilidad */
+}
+
+/* Estilos para las cabeceras de la tabla */
+.table-header th {
+    background-color: #000000; /* Negro */
+    color: #ffffff; /* Blanco */
+    font-size: 18px; /* Tamaño de fuente para las cabeceras */
+}
+
+/* Estilos para filas alternas (fondo gris claro) */
+.meeting-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Gris claro */
+}
+
+/* Estilos para los botones dentro de la tabla */
+.meeting-table button.btn {
+    margin-bottom: 5px;
+    margin-right: 8px;
+    vertical-align: middle; /* Alinea verticalmente los botones en las celdas */
+}
+
+/* Estilos para el botón de editar */
+.btn-edit {
+    background-color: #008CBA; /* Azul */
+    color: white; /* Blanco */
+}
+
+/* Estilos para el botón de eliminar */
+.btn-delete {
+    background-color: #f44336; /* Rojo */
+    color: white; /* Blanco */
+}
+.btn-view{
+    background-color: #3f5d94;
+    color: white;
+}
+/* Estilos para los elementos destacados en la lista de orden del día */
+.highlighted {
+    font-weight: bold;
+}

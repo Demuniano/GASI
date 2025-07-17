@@ -1,0 +1,89 @@
+.actLayout {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.header img {
+    width: 100px;
+    height: auto;
+}
+
+.layoutContent {
+    padding: 10px;
+    margin: 10px;
+}
+
+.logoActLayout {
+    min-width: 100px;
+    min-height: 180px;
+}
+.actTitle p{
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.participantsLayout p{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-size: bold;
+    
+}
+.custom-list {
+    counter-reset: section;
+    list-style: none;
+    padding-left: 0;
+}
+.custom-list > li {
+    counter-increment: section;
+    margin-bottom: 10px;
+}
+.custom-list > li::before {
+    content: counter(section) ". ";
+    font-weight: bold;
+}
+.nested-list {
+    counter-reset: subsection;
+    list-style: none;
+    padding-left: 20px;
+}
+.nested-list > li {
+    counter-increment: subsection;
+    margin-bottom: 10px;
+}
+.nested-list > li::before {
+    content: counters(section, ".") "." counter(subsection) " ";
+    font-weight: bold;
+}
+.nested-sublist {
+    counter-reset: subsubsection;
+    list-style: none;
+    padding-left: 40px;
+}
+.nested-sublist > li {
+    counter-increment: subsubsection;
+    margin-bottom: 10px;
+}
+.nested-sublist > li::before {
+    content: counters(section, ".") "." counters(subsection, ".") "." counter(subsubsection) " ";
+    font-weight: bold;
+}
+.firm{
+    margin-top: 100px;
+    line-height: 0.5;
+}
+.uppercase{
+    text-transform: uppercase;
+}

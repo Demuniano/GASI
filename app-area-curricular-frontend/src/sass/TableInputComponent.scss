@@ -1,0 +1,27 @@
+.editable {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    min-height: 100px; /* Altura mínima para evitar que el input sea demasiado pequeño */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    font-size: 14px; /* Tamaño de fuente */
+    line-height: 1.5; /* Altura de línea */
+    outline: none; /* Eliminar el borde azul al enfocar */
+    overflow-y: auto; /* Habilitar el desplazamiento vertical si el contenido es demasiado largo */
+}
+
+.editable:focus {
+    border-color: #66afe9; /* Cambiar el color del borde al enfocar */
+    box-shadow: 0 0 3px 0 #66afe9; /* Agregar una sombra al enfocar */
+}
+
+/* Estilos para el placeholder */
+.editable:empty:before {
+    content: attr(placeholder);
+    color: #aaa; /* Color del texto del placeholder */
+}
+
+/* Estilos para el contenido editado */
+.editable:not(:empty) {
+    color: #333; /* Color del texto editado */
+}

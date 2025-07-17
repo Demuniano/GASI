@@ -1,0 +1,52 @@
+.authForm-container {
+  background-color: #f0f0f0; // Color de fondo neutro para el formulario
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 5em auto;
+  padding: 2em;
+  color: #3b0096; // Color del texto principal que armoniza con el navbar
+}
+
+.register-title {
+  text-align: center;
+  color: #3b0096;
+}
+
+.input-container {
+  margin-bottom: 1.5em;
+}
+
+.authFom-label {
+  display: block;
+  margin-bottom: 0.5em;
+  color: #3b0096; // Color de las etiquetas que armoniza con el navbar
+}
+
+.authForm-input {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #3b0096;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.authForm-button {
+  width: 100%;
+  padding: 0.75em;
+  background-color: #3b0096; // Color de fondo del botón que armoniza con el navbar
+  border: none;
+  border-radius: 4px;
+  color: #ffffff; // Color del texto del botón
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.authForm-button:hover {
+  background-color: #290070; // Color de fondo del botón al pasar el ratón
+}
+.authForm-logo{
+  width: 200px;
+  height: 100px;
+}
