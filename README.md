@@ -16,7 +16,7 @@ docker compose up --build
 
 ### **Frontend**
 
-Para realizar las pruebas en Cypress se recomienda la ejecucion local del frontend para mayor facilidad de ejecutar los comandos
+Para realizar las pruebas en Cypress se recomienda la ejecución local del frontend para mayor facilidad de ejecutar los comandos
 
 ```
 cd app-area-curricular-frontend
